@@ -7,6 +7,7 @@
     <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/css/style.css" rel="stylesheet" />
 
 </head>
 <body style="background-color: #F0F2F5">
@@ -30,15 +31,26 @@
         </div>
     </div>
     <div class="container-fluid">
-        @RenderBody()
-        <hr />
-        <footer>
+        @RenderBody()        
+        <footer  style="background-color: #000000">
             <div class="container">
-                <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Puedes encontrarnos en nuestras redes sociales:</h4>                       
+                        <h4>Facebook</h4>
+                        <a target="_blank" href="https://www.facebook.com/closermecom/?fb_dtsg_ag=AdyL9pXxhaf5TZMmoUEQp-BbITjLDHTrlnox3jQPe4Bzzw%3AAdx1RB7DdBs1qJfLdupZ9ZIMsDyen9SAkvFnbszR4LAD6A"><img class="iconosFooter" src="~/Content/img/facebook.png" /></a>
+                        <h4>Youtube</h4>
+                        <a target="_blank" href="https://www.youtube.com/user/closermecom"><img class="iconosFooter" src="~/Content/img/youtube.png" /></a>                        
+                        <h4>Página Oficial</h4>                        
+                        <a target="_blank" href="https://www.closerme.com/home"><img class="iconosFooter" src="~/Content/img/closerme-white.png" /></a>                                                
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Contactanos con</h4>                        
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
