@@ -280,13 +280,15 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Pages\noticia1_s1.cshtml" />
+    <Content Include="Views\Pages\Noticia1_s1.cshtml" />
+    <Content Include="Views\Home\Noticia1s1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\img\Seccion1\" />
     <Folder Include="Content\img\Seccion2\" />
     <Folder Include="Content\img\Seccion3\" />
+    <Folder Include="Views\Noticias\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

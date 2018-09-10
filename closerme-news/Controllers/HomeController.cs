@@ -26,9 +26,9 @@ namespace closerme_news.Controllers
 
             return View();
         }
-        public ActionResult noticia1_s1()
+        public ActionResult noticia()
         {
-            return RedirectToRoute("~/Pages/noticia1_s1");
+            return View(viewName: "Noticia1s1");
         }
     }
 }
