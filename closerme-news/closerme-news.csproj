@@ -226,6 +226,8 @@
     <Content Include="Content\img\s3\Noticia2.jpg" />
     <Content Include="Content\img\s3\Noticia3.jpg" />
     <Content Include="Content\img\s3\Noticia4.jpg" />
+    <Content Include="Content\img\Seccion1\mercadolibre.png" />
+    <Content Include="Content\img\Seccion1\red-logistica-600x377.png" />
     <Content Include="Content\img\youtube.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -289,7 +291,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\img\Seccion1\" />
     <Folder Include="Content\img\Seccion2\" />
     <Folder Include="Content\img\Seccion3\" />
     <Folder Include="Views\Noticias\" />
@@ -316,7 +317,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>47953</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
