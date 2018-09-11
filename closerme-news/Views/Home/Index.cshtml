@@ -4,7 +4,7 @@
 
 <div class="jumbotron" style="background-color: #3593c4; color: #fff">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-8" style="text-align:center;">
             <h1>Closerme News</h1>
             <p class="lead">Las noticias mas relevantes de la actualidad a tu alcance.</p>
         </div>
@@ -19,7 +19,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 fondoSubtitulos">
+            <div class="col-md-4">
                 <h4 class="subtitulos"> Emprendimiento </h4>
             </div>
             <div class="col-md-8"></div>
@@ -28,46 +28,43 @@
 
         <div class="row" style="margin-bottom: 20px;">
             <div class="col-sm-6 col-md-4">
-                
-                <div class="thumbnail">
-                    <img src="/Content/img/s1/Noticia1.jpg"/>
-                    <div class="caption">
-                        <h3>@Html.ActionLink("Mercado Libre emite deuda por $800 millones de dólares", "noticia", "Home")</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="/Content/img/Seccion1/Noticia2.jpg">
-                    <div class="caption">
-                        <h3>Los retos del Ecommerce en Perú</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="/Content/img/Seccion1/Noticia3.jpg">
-                    <div class="caption">
-                        <h3>Logística y envíos, la clave del éxito o fracaso del Ecommerce</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
+
+                <div class="container">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img class="hvr-fade" src="/Content/img/s1/Noticia1.jpg" />
+                            <h3>@Html.ActionLink("Mercado Libre emite deuda por $800 millones de dólares", "noticia", "Home")</h3>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img src="/Content/img/Seccion1/Noticia2.jpg" />
+                        <h3>@Html.ActionLink("Los retos del Ecommerce en Perú", "noticia", "Home")</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img src="/Content/img/Seccion1/Noticia3.jpg"/>
+                        <h3>@Html.ActionLink("Logística y envíos, la clave del éxito o fracaso del Ecommerce", "noticia", "Home")</h3>
+                    </div>
+                </div>
+            </div>
+
+            </div>
         </div>
-    </div>
-
 <!--------------------->
 
 <div class="container-fluid" style="background: #d9dbdd">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 fondoSubtitulos">
+            <div class="col-md-4">
                 <h4 class="subtitulos"> Entretenimiento </h4>
             </div>
             <div class="col-md-8"></div>
@@ -77,35 +74,30 @@
         <div class="row" style="margin-bottom: 20px;">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="/Content/img/Seccion2/Noticia1.jpg">
-                    <div class="caption">
-                        <h3>Leslie Moonves, jefe de CBS deja su cargo por denuncias de agresión sexual</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="/Content/img/fondo.jpg" />
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <div class="image">
+                        <img src="/Content/img/Seccion2/Noticia1.jpg">
+                        <h3>@Html.ActionLink("Leslie Moonves, jefe de CBS deja su cargo por agresión sexual", "noticia", "Home")</h3>
                     </div>
                 </div>
             </div>
 
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img src="/Content/img/fondo.jpg" />
+                        <h3>Thumbnail label</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img src="..." alt="...">
+                        <h3>Thumbnail label</h3>
+                    </div>
+                </div>
+            </div>
         </div>
 
        
@@ -128,38 +120,32 @@
         <div class="row" style="margin-bottom: 20px;">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="/Content/img/Seccion3/Noticia1.jpg">
-                    <div class="caption">
+                    <div class="image">
+                        <img src="/Content/img/Seccion3/Noticia1.jpg">
                         <h3>Cómo Google arruinó mi negocio</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="/Content/img/Seccion3/Noticia2.jpg">
-                    <div class="caption">
-                        <h3>Únete al programa de Visual Studio para tener acceso a sus servicios gratuitos</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <div class="image">
+                        <img src="/Content/img/Seccion3/Noticia2.jpg">
+                        <h3>Únete al programa de Visual Studio</h3>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="/Content/img/Seccion3/Noticia3.jpg ">
-                    <div class="caption">
-                        <h3>Ether, bitcoin y el resto de criptodivisas caen a plomo, y nadie parece saber por qué</h3>
-                        <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <div class="image">
+                        <img src="/Content/img/Seccion3/Noticia3.jpg ">
+                        <h3>Ether, bitcoin y el resto de criptodivisas caen a plomo</h3>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <div class="row">
+        @*<div class="row">
             <div class="col-sm-6 col-md-4" style="margin-bottom: 20px;">
                 <div class="thumbnail">
                     <img src="/Content/img/Seccion3/Noticia4.jpg" alt="...">
@@ -172,7 +158,7 @@
             </div>
 
         </div>
-    </div>
+    </div>*@
 </div>
 
 <script type="https://code.jquery.com/jquery-1-12.0.min.js">
