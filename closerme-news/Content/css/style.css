@@ -7,6 +7,26 @@
     font-size:12px;
 }
 
+.iconos{
+    font-size:30px;
+    color:white;
+}
+
+.textoFooter{
+    text-align:justify;
+    color: white;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tituloFooter{
+    text-align:left;
+    color:white;
+    font-size:30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
 .image { 
    position: relative; 
    /*width: 100%;  for IE 6 */
